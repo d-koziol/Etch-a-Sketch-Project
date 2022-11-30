@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="app.js" defer></script>
     <title>Etch-a-Sketch-Project</title>
 </head>
 <body>
@@ -17,11 +16,12 @@
     <p id="message"></p>
     <div class="container"></div>
     <div class="buttons">
-        <button onclick="setColor('black')">Black</button>
-        <button onclick="setColor('random')">Random</button>
-        <button onclick="clearBoard()">Reset</button>
+        <button id="blackBtn" onclick="setColor('black')">Black</button>
+        <button id="randomBtn" onclick="setColor('random')">Random</button>
+        <button id="resetBtn" onclick="clearBoard()">Reset</button>
     </div>
     
 </body>
 <footer>Copyright © 2022 damiankoziol</footer>
+<script src="app.js" defer></script>
 </html>

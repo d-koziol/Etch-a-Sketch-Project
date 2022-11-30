@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     display: flex;
@@ -14,7 +14,9 @@ body{
     width: 400px;
     justify-content: space-around;
     margin-bottom: 30px;
+    font-size: 26px;
 }
+
 .buttons {
     display: flex;
     flex-direction: row;
@@ -24,14 +26,40 @@ body{
     margin-top: 30px;
 }
 
+#popup {
+    font-weight: 900;
+    font-size: 17px;
+}
+
+#blackBtn {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+}
+
+#randomBtn {
+    font-size: 20px;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    color: white;
+    font-weight: 900;
+}
+
+#resetBtn {
+    font-size: 20px;
+    background-color: yellow;
+    font-weight: 900;
+
+}   
+
 .container {
     width: 500px;
     height: 500px;
     display: grid;
     border: 1px solid black;
 }
+
 footer {
-    position:absolute;
-    bottom:0;
- 
+    position: absolute;
+    bottom: 0;
 }
