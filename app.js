@@ -17,17 +17,17 @@ let createBoard = (size) => {
 createBoard(16);
 
 let getSize = () => {
-    let input = prompt("Set the size of the board");
+    let input = prompt("please set the size of the board");
     let message = document.querySelector("#message");
 
     if(input === "") {
-        message.innerHTML = "Please povide a number"
+        message.innerText = "please povide a number"
     }
     else if (input < 0 || input > 100 ) {
-        message.innerHTML = "Please provide a number betwen 1 - 100";
+        message.innerText = "please provide a number betwen 1 - 100";
     }
     else {
-        message.innerHTML = "Size of board is set"
+        message.innerText = "size of board is set";
         return input;
     }
 }

@@ -5,30 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Etch-a-Sketch-Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>etch-a-sketch-Project</title>
 </head>
 <body>
-    <h1>Etch-a-Sketch</h1>
+    <h1>etch-a-sketch</h1>
     <div class="header">
-        <h6>Select the size</h6>
+        <h6>select the size</h6>
         <button id="popup" onclick="getSize()">SELECT</button>
+        <p id="message"></p>
     </div>
-    <p id="message"></p>
-    <div class="container">
 
-    </div>
-    <div class="buttons">
-        <button id="blackBtn" onclick="setColor('black')">Black</button>
-        <button id="randomBtn" onclick="setColor('random')">Random</button>
-        <button id="resetBtn" onclick="clearBoard()">Reset</button>
+    <div class="container">
         
     </div>
 
-    <div id="bkground">
-        <img src="img/sketch.jpg" alt="" srcset="">
+    <div class="buttons">
+        <button id="blackBtn" onclick="setColor('black')">BLACK</button>
+        <button id="randomBtn" onclick="setColor('random')">RANDOM</button>
+        <button id="resetBtn" onclick="clearBoard()">RESET</button>
     </div>
     
 </body>
 <footer>Copyright © 2022 damiankoziol</footer>
-<script src="app.js" defer></script>
+<script src="app.js"></script>
 </html>
